@@ -1,11 +1,7 @@
-from itertools import product
-
 n = []
 m = []
 break_ = 0
-times = 6
-number = 20
-dict1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+number = 13
 def add(place):
     if place not in n and place > 0 and place <= number:
         n.append(place)
